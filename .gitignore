@@ -1,0 +1,22 @@
+# Ignore virtual environment directory
+venv/
+
+# Ignore macOS system file
+.DS_Store
+
+# Ignore git attribute files
+.gitattributes
+
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore logs and databases
+*.log
+*.sqlite3
+
+# Ignore Python packages
+*.egg-info/
+dist/
+build/
+
