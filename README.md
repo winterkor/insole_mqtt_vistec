@@ -52,7 +52,7 @@ In this work, we will use MQTT protocol for sending data from insole to another 
 
 ### Subscriber code
 
-1. Download and open **mycom_sub.py**
+1. Download and open **Test file/test_mycom_sub.py**
 2. Run the subscriber code on your computer.
 3. Verify that the data is being received from the insole sensor through the PCB.
 
@@ -115,7 +115,7 @@ This is what you should see
 
 This is for testing the accuracy of message sending by counting the number of the received messages and sending messages ,and calculate the loss percentage of the sending data here is the steps:
 
-1. Download and open **verifycount.py**
+1. Download and open **Test file/test_count.py**
 2. Run the code on your computer.
 3. Enter the number of messages you plan to send.
 

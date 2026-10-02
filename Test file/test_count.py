@@ -1,4 +1,5 @@
 import json
+import os
 
 def check_sequential_counts(json_file_path):
     with open(json_file_path, 'r') as file:
@@ -32,6 +33,6 @@ def check_sequential_counts(json_file_path):
     print(f"Total number of messages: {total_messages}")
     print(f"Loss percentage: {(1-(int(total_messages))/total_num)*100} %")
 
-json_file_path = "/Users/winter.__.kor/Desktop/test15.json"
+json_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "test15.json")
 total_num = int(input("Total num: "))
 check_sequential_counts(json_file_path)
